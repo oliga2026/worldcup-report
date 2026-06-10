@@ -1,0 +1,83 @@
+{
+  "updatedAt": "2026-06-11T00:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "reports": [
+    {
+      "id": "mexico-south-africa-2026-06-12",
+      "competition": "World Cup Group A",
+      "homeTeam": "Mexico",
+      "awayTeam": "South Africa",
+      "kickoffLocal": "2026-06-11 13:00 Mexico City",
+      "kickoffBeijing": "2026-06-12 03:00 Beijing",
+      "venue": "Estadio Azteca / Mexico City Stadium",
+      "recommendation": "Mexico win, prefer low-score script",
+      "probabilities": {
+        "home": 58,
+        "draw": 25,
+        "away": 17
+      },
+      "scorePrediction": "1-0 / 2-0 / 1-1",
+      "snapshot": [
+        "Highest priority signal: verify starting goalkeeper, center-back pair, holding midfielder, and striker in the final 60-90 minutes before kickoff.",
+        "Home altitude edge still supports Mexico, but a cautious setup or rotation in the front line lowers the ceiling for a two-goal margin.",
+        "Handicap, water, and totals should be read together; if only the handicap rises while totals stay flat, the cover probability is weaker than the headline move suggests.",
+        "Current score model still favors a low-event match script unless confirmed lineups and late market action point to a faster tempo."
+      ],
+      "news": [
+        "Add official lineups and bench lists as a required late update; this is the single biggest upgrade for win and score prediction accuracy.",
+        "Track coach comments for conservative game-plan language, rotation hints, travel fatigue, or altitude adaptation concerns.",
+        "Any late change in goalkeeper, lead center-back, single pivot, or main striker should trigger an immediate downgrade in model confidence and a reset on total goals.",
+        "Beyond standard injuries, monitor travel delays, illness, warm-up withdrawals, and soft-tissue management decisions."
+      ],
+      "marketRead": "Base case remains Mexico on a shallow handicap. If the market sits at Mexico -0.75 with home-side low water, the handicap broadly matches the fundamental edge. If the line moves to -1 while totals remain around 2.25 or 2.5, the market is pricing win probability more than blowout probability. If it stretches to -1.25 without a matching rise in totals, that is more likely heat than fresh edge. The present score band still fits 1-0, 2-0, and 1-1 better than wider-margin outcomes.",
+      "marketMovement": "Three additions should now be tracked every run: first, whether Asian handicap, 1X2, and totals move in the same direction; second, whether the favorite keeps dropping in water without another line increase, which often signals overheated demand; third, whether late money pushes the win price down while totals stay suppressed, which can mean the market overprices result certainty but not goal volume. A rise in line with stubborn high water or heavy public concentration should be treated as a possible trap.",
+      "lineup": [
+        "Must-check positions: starting goalkeeper, first-choice center-back pair, number-6 role, and lone striker. These positions most directly change clean-sheet odds and score ceiling.",
+        "For Mexico, confirm spine stability and whether the holding midfielder and striker are both available from the start; if the striker rotates, 1-0 becomes more likely than 2-0.",
+        "For South Africa, confirm goalkeeper, starting center-backs, and the main transition runner; defensive absences materially increase Mexico cover chances.",
+        "If the official shape shifts into a more defensive structure, total-goal expectation should be revised downward immediately."
+      ],
+      "formData": [
+        "Keep recent results, but add xG, xGA, box shots, shots on target allowed, set-piece xG, and transition creation as standard inputs.",
+        "If Mexico's recent scoring burst came mainly against weak opposition, deep handicap value should be cut even if headline form looks strong.",
+        "Score modeling should weigh game-state behavior: what happens after scoring first, and whether the trailing side can create sustained pressure.",
+        "If South Africa posted clean sheets mostly against limited attacks and still struggles against high pressure in build-up, 1-0 and 2-0 stay the most coherent home-win scores."
+      ],
+      "factors": [
+        "Motivation should be described in detail: qualification math, goal-difference pressure, and whether a draw is acceptable for either side.",
+        "Weather should include real temperature, humidity, wind, and pitch condition because hot or heavy conditions often suppress tempo and finishing quality.",
+        "Travel and recovery should record time-zone change, arrival timing, rest days, and recent starter minutes because these often decide second-half energy.",
+        "Referee style should include card rate, penalty frequency, and foul tolerance because it changes set-piece volume and tail-risk in scorelines.",
+        "Matchup edges matter more than generic form: wing pace versus recovery speed, aerial strength, set-piece attack versus defense, and transition defense."
+      ],
+      "modelNote": "The report now carries five extra prediction levers inside the existing schema: confirmed lineup signal, xG quality, set-piece edge, referee style, and travel recovery. Fundamentals still support Mexico on the result line, but value depends on late lineup integrity and whether the market overheats. If the core spine starts, the handicap holds between -0.75 and -1, and totals stay at or below 2.5, the model remains aligned with a home win in a low-score game. If the handicap stretches without totals support, result and handicap should be separated, with deeper lines avoided first.",
+      "risk": "Main risk is not the raw result call but the price paid for it. If the favorite becomes crowded, the line rises on weak support, or the coach signals control over aggression, Mexico may win by only one or drift into a 1-1 path. Opening-match pace uncertainty, referee interpretation, and set-piece variance also widen score error bands.",
+      "sources": [
+        {
+          "label": "FIFA schedule",
+          "url": "https://www.fifa.com/"
+        },
+        {
+          "label": "Mexico federation",
+          "url": "https://miseleccion.mx/"
+        },
+        {
+          "label": "South Africa federation",
+          "url": "https://www.safa.net/"
+        },
+        {
+          "label": "OddsPortal market reference",
+          "url": "https://www.oddsportal.com/"
+        },
+        {
+          "label": "Flashscore match data",
+          "url": "https://www.flashscore.com/"
+        },
+        {
+          "label": "Weather reference",
+          "url": "https://weather.com/"
+        }
+      ]
+    }
+  ]
+}
