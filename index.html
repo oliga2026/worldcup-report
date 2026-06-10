@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>World Cup Pre-Match Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="hero-copy">
+        <p class="eyebrow">2026 FIFA World Cup</p>
+        <h1>Pre-match Intelligence Board</h1>
+        <p class="hero-note">
+          Built for handicap reading first: lineups, market heat, xG quality, set pieces,
+          referee style, weather, and travel recovery in one place.
+        </p>
+      </div>
+      <div class="status-block">
+        <div class="status" id="updatedAt">Loading update...</div>
+        <div class="status-sub">Window: next 36 hours</div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="toolbar" aria-label="Filter reports">
+        <button class="seg active" data-filter="all" type="button">All</button>
+        <button class="seg" data-filter="today" type="button">Today</button>
+        <button class="seg" data-filter="tomorrow" type="button">Tomorrow</button>
+      </section>
+
+      <section class="legend">
+        <div class="legend-card">
+          <strong>Late lineup signal</strong>
+          <span>Goalkeeper, CB pair, holding midfielder, striker</span>
+        </div>
+        <div class="legend-card">
+          <strong>Market sanity check</strong>
+          <span>Asian line, water, totals, 1X2 moving together or not</span>
+        </div>
+        <div class="legend-card">
+          <strong>Score drivers</strong>
+          <span>xG quality, set pieces, referee, weather, travel load</span>
+        </div>
+      </section>
+
+      <section id="reports" class="reports" aria-live="polite"></section>
+      <section id="emptyState" class="empty-state" hidden>
+        <h2>No upcoming match reports</h2>
+        <p>The report feed refreshes for matches scheduled in the next 36 hours.</p>
+      </section>
+    </main>
+
+    <template id="reportTemplate">
+      <article class="match-card">
+        <div class="match-head">
+          <div>
+            <p class="competition"></p>
+            <h2 class="match-title"></h2>
+            <p class="kickoff"></p>
+          </div>
+          <div class="pick"></div>
+        </div>
+
+        <div class="quick-grid">
+          <div><span>Home</span><strong class="home-win"></strong></div>
+          <div><span>Draw</span><strong class="draw"></strong></div>
+          <div><span>Away</span><strong class="away-win"></strong></div>
+          <div><span>Scores</span><strong class="score"></strong></div>
+        </div>
+
+        <section class="signal-panel">
+          <div class="section-head">
+            <h3>Advanced Signals</h3>
+            <p>Extra edges that matter most for result and score prediction.</p>
+          </div>
+          <div class="signal-grid"></div>
+        </section>
+
+        <details open>
+          <summary>Snapshot</summary>
+          <ul class="snapshot"></ul>
+        </details>
+
+        <details>
+          <summary>News and availability</summary>
+          <ul class="news"></ul>
+        </details>
+
+        <details open>
+          <summary>Market read</summary>
+          <p class="market"></p>
+        </details>
+
+        <details open>
+          <summary>Market movement and public heat</summary>
+          <p class="market-movement"></p>
+        </details>
+
+        <details>
+          <summary>Lineups and injuries</summary>
+          <ul class="lineup"></ul>
+        </details>
+
+        <details>
+          <summary>Recent form and data</summary>
+          <ul class="form-data"></ul>
+        </details>
+
+        <details>
+          <summary>External factors</summary>
+          <ul class="factors"></ul>
+        </details>
+
+        <details>
+          <summary>Model note</summary>
+          <p class="model-note"></p>
+        </details>
+
+        <details>
+          <summary>Betting risk</summary>
+          <p class="risk"></p>
+        </details>
+
+        <footer class="sources-wrap">
+          <div class="sources-title">Sources</div>
+          <div class="sources"></div>
+        </footer>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
