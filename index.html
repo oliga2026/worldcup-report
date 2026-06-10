@@ -1,53 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>World Cup Pre-Match Intelligence</title>
+    <title>世界杯赛前情报板</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="topbar">
       <div class="hero-copy">
         <p class="eyebrow">2026 FIFA World Cup</p>
-        <h1>Pre-match Intelligence Board</h1>
+        <h1>世界杯赛前情报板</h1>
         <p class="hero-note">
-          Built for handicap reading first: lineups, market heat, xG quality, set pieces,
-          referee style, weather, and travel recovery in one place.
+          以盘口判断为中心，集中展示首发确认、市场热度、xG 质量、定位球、
+          裁判尺度、天气与旅途恢复等高价值信息。
         </p>
       </div>
       <div class="status-block">
-        <div class="status" id="updatedAt">Loading update...</div>
-        <div class="status-sub">Window: next 36 hours</div>
+        <div class="status" id="updatedAt">正在读取更新...</div>
+        <div class="status-sub">覆盖未来 36 小时比赛</div>
       </div>
     </header>
 
     <main class="layout">
-      <section class="toolbar" aria-label="Filter reports">
-        <button class="seg active" data-filter="all" type="button">All</button>
-        <button class="seg" data-filter="today" type="button">Today</button>
-        <button class="seg" data-filter="tomorrow" type="button">Tomorrow</button>
+      <section class="toolbar" aria-label="筛选报告">
+        <button class="seg active" data-filter="all" type="button">全部</button>
+        <button class="seg" data-filter="today" type="button">今日</button>
+        <button class="seg" data-filter="tomorrow" type="button">明日</button>
       </section>
 
       <section class="legend">
         <div class="legend-card">
-          <strong>Late lineup signal</strong>
-          <span>Goalkeeper, CB pair, holding midfielder, striker</span>
+          <strong>临场首发信号</strong>
+          <span>门将、中卫、后腰、中锋是否齐整</span>
         </div>
         <div class="legend-card">
-          <strong>Market sanity check</strong>
-          <span>Asian line, water, totals, 1X2 moving together or not</span>
+          <strong>盘口一致性</strong>
+          <span>亚盘、水位、大小球、1X2 是否同向</span>
         </div>
         <div class="legend-card">
-          <strong>Score drivers</strong>
-          <span>xG quality, set pieces, referee, weather, travel load</span>
+          <strong>比分驱动因子</strong>
+          <span>xG、定位球、裁判、天气、旅途消耗</span>
         </div>
       </section>
 
       <section id="reports" class="reports" aria-live="polite"></section>
       <section id="emptyState" class="empty-state" hidden>
-        <h2>No upcoming match reports</h2>
-        <p>The report feed refreshes for matches scheduled in the next 36 hours.</p>
+        <h2>暂无未来 36 小时比赛</h2>
+        <p>自动更新完成后，这里会展示接下来 36 小时内的赛前报告。</p>
       </section>
     </main>
 
@@ -63,67 +63,67 @@
         </div>
 
         <div class="quick-grid">
-          <div><span>Home</span><strong class="home-win"></strong></div>
-          <div><span>Draw</span><strong class="draw"></strong></div>
-          <div><span>Away</span><strong class="away-win"></strong></div>
-          <div><span>Scores</span><strong class="score"></strong></div>
+          <div><span>主胜</span><strong class="home-win"></strong></div>
+          <div><span>平局</span><strong class="draw"></strong></div>
+          <div><span>客胜</span><strong class="away-win"></strong></div>
+          <div><span>比分</span><strong class="score"></strong></div>
         </div>
 
         <section class="signal-panel">
           <div class="section-head">
-            <h3>Advanced Signals</h3>
-            <p>Extra edges that matter most for result and score prediction.</p>
+            <h3>高级预测信号</h3>
+            <p>把最影响胜负与比分的临场变量单独拎出来看。</p>
           </div>
           <div class="signal-grid"></div>
         </section>
 
         <details open>
-          <summary>Snapshot</summary>
+          <summary>赛前情报快照</summary>
           <ul class="snapshot"></ul>
         </details>
 
         <details>
-          <summary>News and availability</summary>
+          <summary>最新新闻与可用性</summary>
           <ul class="news"></ul>
         </details>
 
         <details open>
-          <summary>Market read</summary>
+          <summary>盘口解读</summary>
           <p class="market"></p>
         </details>
 
         <details open>
-          <summary>Market movement and public heat</summary>
+          <summary>盘口变化与市场热度</summary>
           <p class="market-movement"></p>
         </details>
 
         <details>
-          <summary>Lineups and injuries</summary>
+          <summary>阵容与伤停</summary>
           <ul class="lineup"></ul>
         </details>
 
         <details>
-          <summary>Recent form and data</summary>
+          <summary>近期状态与数据</summary>
           <ul class="form-data"></ul>
         </details>
 
         <details>
-          <summary>External factors</summary>
+          <summary>影响因素</summary>
           <ul class="factors"></ul>
         </details>
 
         <details>
-          <summary>Model note</summary>
+          <summary>模型判断</summary>
           <p class="model-note"></p>
         </details>
 
         <details>
-          <summary>Betting risk</summary>
+          <summary>投注风险提示</summary>
           <p class="risk"></p>
         </details>
 
         <footer class="sources-wrap">
-          <div class="sources-title">Sources</div>
+          <div class="sources-title">信息来源</div>
           <div class="sources"></div>
         </footer>
       </article>
