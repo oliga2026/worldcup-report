@@ -4,57 +4,57 @@ const fallbackReports = {
   reports: [
     {
       id: "mexico-south-africa-2026-06-12",
-      competition: "World Cup Group A",
-      homeTeam: "Mexico",
-      awayTeam: "South Africa",
-      kickoffLocal: "2026-06-11 13:00 Mexico City",
-      kickoffBeijing: "2026-06-12 03:00 Beijing",
+      competition: "世界杯 A 组",
+      homeTeam: "墨西哥",
+      awayTeam: "南非",
+      kickoffLocal: "2026-06-11 13:00 墨西哥城",
+      kickoffBeijing: "2026-06-12 03:00 北京时间",
       venue: "Estadio Azteca / Mexico City Stadium",
-      recommendation: "Mexico win, prefer low-score script",
+      recommendation: "墨西哥胜，偏小比分",
       probabilities: { home: 58, draw: 25, away: 17 },
       scorePrediction: "1-0 / 2-0 / 1-1",
       snapshot: [
-        "Highest priority signal: verify starting goalkeeper, center-back pair, holding midfielder, and striker in the final 60-90 minutes before kickoff.",
-        "Home altitude edge still supports Mexico, but a cautious setup or rotation in the front line lowers the ceiling for a two-goal margin.",
-        "Handicap, water, and totals should be read together; if only the handicap rises while totals stay flat, the cover probability is weaker than the headline move suggests.",
-        "Current score model still favors a low-event match script unless confirmed lineups and late market action point to a faster tempo."
+        "最高优先级信号是赛前 60 到 90 分钟确认首发门将、中卫组合、后腰和中锋。",
+        "高海拔主场仍偏向墨西哥，但如果前场轮换或主动降速，净胜球上限会明显下修。",
+        "让球、水位和大小球要一起读；若只是让球升盘而大小球不动，穿盘空间通常被高估。",
+        "当前比分模型仍偏低比分，除非临场首发和盘口同步指向更高节奏。"
       ],
       news: [
-        "Add official lineups and bench lists as a required late update; this is the single biggest upgrade for win and score prediction accuracy.",
-        "Track coach comments for conservative game-plan language, rotation hints, travel fatigue, or altitude adaptation concerns.",
-        "Any late change in goalkeeper, lead center-back, single pivot, or main striker should trigger an immediate downgrade in model confidence and a reset on total goals.",
-        "Beyond standard injuries, monitor travel delays, illness, warm-up withdrawals, and soft-tissue management decisions."
+        "临场必须补抓官方首发和替补名单，这是提升胜负与比分判断最有效的单一信息。",
+        "重点关注主帅是否释放保守控节奏、轮换、旅途疲劳或高原适应相关表态。",
+        "门将、主力中卫、单后腰或核心中锋的临时变化，应立即下调模型稳定性并重估总进球。",
+        "除常规伤停外，还要留意旅途延误、流感、热身退出和轻伤保护。"
       ],
-      marketRead: "Base case remains Mexico on a shallow handicap. If the market sits at Mexico -0.75 with home-side low water, the handicap broadly matches the fundamental edge. If the line moves to -1 while totals remain around 2.25 or 2.5, the market is pricing win probability more than blowout probability. If it stretches to -1.25 without a matching rise in totals, that is more likely heat than fresh edge. The present score band still fits 1-0, 2-0, and 1-1 better than wider-margin outcomes.",
-      marketMovement: "Track whether Asian handicap, 1X2, and totals move in the same direction. If the favorite keeps dropping in water without another line increase, demand may be overheated. If late money pushes the win price down while totals stay suppressed, the market may overprice result certainty but not goal volume.",
+      marketRead: "基础判断仍是墨西哥浅让更合理。若停在墨西哥 -0.75 且主队低水，盘口与基本面大致匹配；若升到 -1 但大小球仍在 2.25 或 2.5，说明市场更认可胜面而非大胜。若继续拉到 -1.25 却没有总进球联动，多半是热度推动而非真实优势放大。当前最贴近的比分区间仍是 1-0、2-0、1-1。",
+      marketMovement: "重点看三件事：第一，亚盘、1X2、大小球是否同向；第二，热门方是否只降水不升盘，这通常代表热度堆积；第三，临场若主胜持续压低但大小球保持低位，说明市场可能高估胜负确定性、低估比分波动。若升盘配高水，或热门成交明显拥挤而公司不愿深开，要防诱盘。",
       lineup: [
-        "Must-check positions: starting goalkeeper, first-choice center-back pair, number-6 role, and lone striker.",
-        "For Mexico, confirm spine stability and whether the holding midfielder and striker are both available from the start.",
-        "For South Africa, confirm goalkeeper, starting center-backs, and the main transition runner.",
-        "If the official shape shifts into a more defensive structure, total-goal expectation should be revised downward immediately."
+        "最该核对的位置是首发门将、双中卫、6 号位后腰和单箭头中锋。",
+        "墨西哥要看中轴是否齐整，尤其后腰保护与中锋支点是否同时首发；若中锋轮换，1-0 的概率高于 2-0。",
+        "南非要重点确认门将、主力中卫和反击速度点；若防线主力缺席，主队穿盘概率才会明显上升。",
+        "若官方阵型切成更保守结构，应同步下调总进球预期。"
       ],
       formData: [
-        "Keep recent results, but add xG, xGA, box shots, shots on target allowed, set-piece xG, and transition creation as standard inputs.",
-        "If Mexico's recent scoring burst came mainly against weak opposition, deep handicap value should be cut even if headline form looks strong.",
-        "Score modeling should weigh game-state behavior after scoring first and after conceding first.",
-        "If South Africa posted clean sheets mostly against limited attacks and still struggles against high pressure in build-up, 1-0 and 2-0 stay the most coherent home-win scores."
+        "除近况战绩外，应固定观察 xG、xGA、禁区内射门、被射正、定位球 xG 和反击创造。",
+        "若墨西哥近期进球主要堆在弱旅身上，深盘价值应下修，不能只看表面连胜。",
+        "比分预测要看先入球与先失球后的比赛形态，而不只是总战绩。",
+        "若南非零封样本多来自弱队，且面对高压出球依旧不稳，1-0 和 2-0 仍是更合理主分布。"
       ],
       factors: [
-        "Motivation should be described in detail: qualification math, goal-difference pressure, and whether a draw is acceptable for either side.",
-        "Weather should include real temperature, humidity, wind, and pitch condition because hot or heavy conditions often suppress tempo and finishing quality.",
-        "Travel and recovery should record time-zone change, arrival timing, rest days, and recent starter minutes because these often decide second-half energy.",
-        "Referee style should include card rate, penalty frequency, and foul tolerance because it changes set-piece volume and tail-risk in scorelines.",
-        "Matchup edges matter more than generic form: wing pace versus recovery speed, aerial strength, set-piece attack versus defense, and transition defense."
+        "战意要写细：是否必须抢三分、净胜球是否关键、平局是否可接受。",
+        "天气要看实时温度、湿度、风速和草皮，高温高湿通常压低节奏与射门质量。",
+        "旅途恢复要记录跨时区、到达时间、休息天数和核心球员近期分钟数。",
+        "裁判尺度包括黄牌、点球倾向和对抗容忍度，会明显影响定位球与极端比分概率。",
+        "具体对位比笼统状态更重要，例如边路速度、防空质量、定位球攻防和攻守转换速度。"
       ],
-      modelNote: "The report now carries five extra prediction levers inside the existing schema: confirmed lineup signal, xG quality, set-piece edge, referee style, and travel recovery. Fundamentals still support Mexico on the result line, but value depends on late lineup integrity and whether the market overheats.",
-      risk: "Main risk is not the raw result call but the price paid for it. If the favorite becomes crowded, the line rises on weak support, or the coach signals control over aggression, Mexico may win by only one or drift into a 1-1 path.",
+      modelNote: "报告现在把五类高价值信息拆开观察：首发确认信号、xG 质量、定位球优势、裁判尺度、旅途恢复。当前基本面仍支持墨西哥胜，但价值取决于临场首发完整度和热门是否过热。若中轴齐整、盘口停在 -0.75 到 -1、大小球不高于 2.5，则主胜加小比分逻辑一致；若深盘被热度推高，应把赛果方向和让球方向分开处理。",
+      risk: "主要风险不在胜负判断本身，而在赔率价格是否被挤压。若主队过热、升盘配高水、主帅释放保守信号，或中锋与后腰临场缺席，比赛就可能滑向只赢一球甚至 1-1。揭幕战节奏、裁判尺度和定位球偶发性也会放大比分误差。",
       sources: [
-        { label: "FIFA schedule", url: "https://www.fifa.com/" },
-        { label: "Mexico federation", url: "https://miseleccion.mx/" },
-        { label: "South Africa federation", url: "https://www.safa.net/" },
-        { label: "OddsPortal market reference", url: "https://www.oddsportal.com/" },
-        { label: "Flashscore match data", url: "https://www.flashscore.com/" },
-        { label: "Weather reference", url: "https://weather.com/" }
+        { label: "FIFA 官方赛程", url: "https://www.fifa.com/" },
+        { label: "墨西哥足协", url: "https://miseleccion.mx/" },
+        { label: "南非足协", url: "https://www.safa.net/" },
+        { label: "OddsPortal 赔率参考", url: "https://www.oddsportal.com/" },
+        { label: "Flashscore 比赛数据", url: "https://www.flashscore.com/" },
+        { label: "Weather.com 天气参考", url: "https://weather.com/" }
       ]
     }
   ]
@@ -65,7 +65,7 @@ const state = {
   filter: "all"
 };
 
-const dateFormatter = new Intl.DateTimeFormat("en-GB", {
+const dateFormatter = new Intl.DateTimeFormat("zh-CN", {
   month: "2-digit",
   day: "2-digit",
   hour: "2-digit",
@@ -76,40 +76,34 @@ const dateFormatter = new Intl.DateTimeFormat("en-GB", {
 
 const signalDefinitions = [
   {
-    key: "lineup",
-    title: "Lineup confirmation",
-    helper: "Late XI changes shift both win rate and score ceiling the fastest.",
-    keywords: ["lineup", "starting", "starter", "goalkeeper", "keeper", "center-back", "midfielder", "striker", "warm-up", "injur", "suspens", "rotation", "首发", "门将", "中卫", "后腰", "中锋", "伤停", "停赛", "轮换"]
+    title: "首发确认",
+    helper: "门将、中卫、后腰、中锋的临场变化最直接影响胜率与比分上限。",
+    keywords: ["lineup", "starting", "goalkeeper", "center-back", "midfielder", "striker", "warm-up", "injur", "rotation", "首发", "门将", "中卫", "后腰", "中锋", "伤停", "停赛", "轮换"]
   },
   {
-    key: "xg",
-    title: "xG and shot quality",
-    helper: "Use chance quality, not only recent results, to anchor the scoreline.",
-    keywords: ["xg", "xga", "box shots", "shots on target", "chance", "finishing", "transition", "build-up", "禁区", "射门", "射正", "机会", "反击"]
+    title: "xG 与射门质量",
+    helper: "用机会质量而不是表面战绩锚定比分区间。",
+    keywords: ["xg", "xga", "box shots", "shots on target", "chance", "finishing", "transition", "禁区", "射门", "射正", "机会", "反击"]
   },
   {
-    key: "setpiece",
-    title: "Set-piece edge",
-    helper: "Dead-ball advantage often decides 1-goal matches and low totals.",
-    keywords: ["set-piece", "set piece", "corner", "free kick", "aerial", "penalty", "定位球", "角球", "任意球", "高空球", "头球"]
+    title: "定位球优势",
+    helper: "定位球往往决定低比分比赛中的单球差与意外失球。",
+    keywords: ["set-piece", "set piece", "corner", "free kick", "aerial", "penalty", "定位球", "角球", "任意球", "高空球", "头球", "点球"]
   },
   {
-    key: "referee",
-    title: "Referee style",
-    helper: "Cards, fouls, and penalty tendency change volatility and totals.",
-    keywords: ["referee", "card", "penalty", "foul", "discipline", "yellow", "red", "裁判", "黄牌", "红牌", "点球", "犯规"]
+    title: "裁判尺度",
+    helper: "黄牌、犯规与点球倾向会改变比赛波动和尾部比分概率。",
+    keywords: ["referee", "card", "penalty", "foul", "yellow", "red", "裁判", "黄牌", "红牌", "点球", "犯规"]
   },
   {
-    key: "travel",
-    title: "Weather and recovery",
-    helper: "Temperature, humidity, altitude, and travel load change second-half energy.",
-    keywords: ["travel", "recovery", "altitude", "weather", "humidity", "wind", "pitch", "rest", "time-zone", "arrival", "fatigue", "旅途", "恢复", "海拔", "天气", "湿度", "风速", "草皮", "休息"]
+    title: "天气与恢复",
+    helper: "温度、湿度、海拔和旅途恢复决定下半场体能质量。",
+    keywords: ["travel", "recovery", "altitude", "weather", "humidity", "wind", "pitch", "rest", "arrival", "fatigue", "旅途", "恢复", "海拔", "天气", "湿度", "风速", "草皮", "休息"]
   },
   {
-    key: "market",
-    title: "Market heat",
-    helper: "Look for disagreement between handicap, water, totals, and 1X2.",
-    keywords: ["market", "handicap", "water", "1x2", "totals", "odds", "price", "overheated", "trap", "让球", "盘口", "水位", "赔率", "大小球", "过热", "诱盘"]
+    title: "市场热度",
+    helper: "重点看让球、水位、大小球和 1X2 是否共同支持同一方向。",
+    keywords: ["market", "handicap", "water", "1x2", "totals", "odds", "overheated", "trap", "让球", "盘口", "水位", "赔率", "大小球", "过热", "诱盘"]
   }
 ];
 
@@ -132,7 +126,7 @@ function textList(items) {
 
 function sentenceSplit(text) {
   return String(text || "")
-    .split(/(?<=[.!?])\s+|\n+/)
+    .split(/(?<=[.!?。！？])\s+|\n+/)
     .map((item) => item.trim())
     .filter(Boolean);
 }
@@ -226,23 +220,23 @@ function render(reports) {
 
   filtered.forEach((report) => {
     const node = template.content.cloneNode(true);
-    node.querySelector(".competition").textContent = report.competition || "World Cup";
+    node.querySelector(".competition").textContent = report.competition || "世界杯";
     node.querySelector(".match-title").textContent = `${report.homeTeam} vs ${report.awayTeam}`;
     node.querySelector(".kickoff").textContent = `${report.kickoffBeijing || ""} | ${report.venue || ""}`;
-    node.querySelector(".pick").textContent = report.recommendation || "Await market";
+    node.querySelector(".pick").textContent = report.recommendation || "等待盘口";
     node.querySelector(".home-win").textContent = toPercent(report.probabilities?.home);
     node.querySelector(".draw").textContent = toPercent(report.probabilities?.draw);
     node.querySelector(".away-win").textContent = toPercent(report.probabilities?.away);
     node.querySelector(".score").textContent = report.scorePrediction || "-";
     node.querySelector(".snapshot").innerHTML = textList(report.snapshot);
     node.querySelector(".news").innerHTML = textList(report.news);
-    node.querySelector(".market").textContent = report.marketRead || "No market read yet.";
-    node.querySelector(".market-movement").textContent = report.marketMovement || "No market movement yet.";
+    node.querySelector(".market").textContent = report.marketRead || "暂无盘口解读。";
+    node.querySelector(".market-movement").textContent = report.marketMovement || "暂无盘口变化信息。";
     node.querySelector(".lineup").innerHTML = textList(report.lineup);
     node.querySelector(".form-data").innerHTML = textList(report.formData);
     node.querySelector(".factors").innerHTML = textList(report.factors);
-    node.querySelector(".model-note").textContent = report.modelNote || "No model note yet.";
-    node.querySelector(".risk").textContent = report.risk || "No risk note yet.";
+    node.querySelector(".model-note").textContent = report.modelNote || "暂无模型判断。";
+    node.querySelector(".risk").textContent = report.risk || "暂无风险提示。";
 
     const sourceHtml = (report.sources || [])
       .map(
@@ -254,7 +248,7 @@ function render(reports) {
       )
       .join("");
 
-    node.querySelector(".sources").innerHTML = sourceHtml || "<span>No source links yet.</span>";
+    node.querySelector(".sources").innerHTML = sourceHtml || "<span>暂无来源链接。</span>";
     renderSignals(report, node);
     container.appendChild(node);
   });
@@ -275,8 +269,8 @@ async function loadReports() {
   state.reports = payload.reports || [];
   const updated = payload.updatedAt
     ? dateFormatter.format(new Date(payload.updatedAt))
-    : "No timestamp";
-  document.querySelector("#updatedAt").textContent = `Updated ${updated} CST`;
+    : "暂无时间";
+  document.querySelector("#updatedAt").textContent = `更新于 ${updated}`;
   render(state.reports);
 }
 
