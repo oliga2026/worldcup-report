@@ -7,7 +7,7 @@ Set-Location $repoRoot
 
 node .\generate_reports.mjs
 if ($LASTEXITCODE -ne 0) {
-    Write-Error "generate_reports.mjs 执行失败。"
+    Write-Error "generate_reports.mjs failed."
     exit 1
 }
 
@@ -18,7 +18,7 @@ JSON.parse(text);
 console.log("REPORTS_JSON_OK");
 '@ | node -
 if ($LASTEXITCODE -ne 0) {
-    Write-Error "data/reports.json JSON 校验失败。"
+    Write-Error "data/reports.json JSON validation failed."
     exit 1
 }
 
@@ -31,4 +31,4 @@ if ($LASTEXITCODE -eq 0 -and $insideRepo -eq "true") {
     }
 }
 
-Write-Host "已更新 data/reports.json，但当前仓库未配置可用 origin，未执行推送。"
+Write-Host "data/reports.json updated locally, but no usable origin remote was found."
