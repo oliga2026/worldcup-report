@@ -182,6 +182,13 @@ summary {
   background: linear-gradient(180deg, rgba(255, 253, 247, 0.95), rgba(255, 250, 242, 0.92));
 }
 
+.head-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+
 .competition,
 .kickoff {
   margin: 0;
@@ -197,7 +204,7 @@ summary {
 
 .pick {
   align-self: start;
-  max-width: 210px;
+  max-width: 220px;
   padding: 12px 14px;
   border: 1px solid rgba(14, 109, 99, 0.16);
   border-radius: 16px;
@@ -206,6 +213,27 @@ summary {
   font-family: "Trebuchet MS", "Segoe UI", sans-serif;
   font-weight: 800;
   text-align: center;
+}
+
+.match-status,
+.current-score {
+  padding: 9px 12px;
+  border-radius: 14px;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+.match-status {
+  border: 1px solid rgba(143, 45, 23, 0.18);
+  background: rgba(143, 45, 23, 0.08);
+  color: var(--warning);
+}
+
+.current-score {
+  border: 1px solid rgba(14, 109, 99, 0.16);
+  background: rgba(14, 109, 99, 0.08);
+  color: var(--accent-strong);
 }
 
 .quick-grid {
