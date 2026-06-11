@@ -9,7 +9,7 @@ const fallbackReports = {
       awayTeam: "南非",
       kickoffLocal: "2026-06-11 13:00 墨西哥城",
       kickoffBeijing: "2026-06-12 03:00 北京时间",
-      venue: "Estadio Azteca / Mexico City Stadium",
+      venue: "阿兹特克球场 / 墨西哥城体育场",
       recommendation: "墨西哥胜，偏小比分",
       probabilities: { home: 58, draw: 25, away: 17 },
       scorePrediction: "1-0 / 2-0 / 1-1",
@@ -34,7 +34,7 @@ const fallbackReports = {
         "若官方阵型切成更保守结构，应同步下调总进球预期。"
       ],
       formData: [
-        "除近况战绩外，应固定观察 xG、xGA、禁区内射门、被射正、定位球 xG 和反击创造。",
+        "除近况战绩外，应固定观察预期进球、预期失球、禁区内射门、被射正、定位球预期进球和反击创造。",
         "若墨西哥近期进球主要堆在弱旅身上，深盘价值应下修，不能只看表面连胜。",
         "比分预测要看先入球与先失球后的比赛形态，而不只是总战绩。",
         "若南非零封样本多来自弱队，且面对高压出球依旧不稳，1-0 和 2-0 仍是更合理主分布。"
@@ -46,15 +46,15 @@ const fallbackReports = {
         "裁判尺度包括黄牌、点球倾向和对抗容忍度，会明显影响定位球与极端比分概率。",
         "具体对位比笼统状态更重要，例如边路速度、防空质量、定位球攻防和攻守转换速度。"
       ],
-      modelNote: "报告现在把五类高价值信息拆开观察：首发确认信号、xG 质量、定位球优势、裁判尺度、旅途恢复。当前基本面仍支持墨西哥胜，但价值取决于临场首发完整度和热门是否过热。若中轴齐整、盘口停在 -0.75 到 -1、大小球不高于 2.5，则主胜加小比分逻辑一致；若深盘被热度推高，应把赛果方向和让球方向分开处理。",
+      modelNote: "报告现在把五类高价值信息拆开观察：首发确认信号、预期进球质量、定位球优势、裁判尺度、旅途恢复。当前基本面仍支持墨西哥胜，但价值取决于临场首发完整度和热门是否过热。若中轴齐整、盘口停在 -0.75 到 -1、大小球不高于 2.5，则主胜加小比分逻辑一致；若深盘被热度推高，应把赛果方向和让球方向分开处理。",
       risk: "主要风险不在胜负判断本身，而在赔率价格是否被挤压。若主队过热、升盘配高水、主帅释放保守信号，或中锋与后腰临场缺席，比赛就可能滑向只赢一球甚至 1-1。揭幕战节奏、裁判尺度和定位球偶发性也会放大比分误差。",
       sources: [
-        { label: "FIFA 官方赛程", url: "https://www.fifa.com/" },
+        { label: "国际足联官方赛程", url: "https://www.fifa.com/" },
         { label: "墨西哥足协", url: "https://miseleccion.mx/" },
         { label: "南非足协", url: "https://www.safa.net/" },
-        { label: "OddsPortal 赔率参考", url: "https://www.oddsportal.com/" },
-        { label: "Flashscore 比赛数据", url: "https://www.flashscore.com/" },
-        { label: "Weather.com 天气参考", url: "https://weather.com/" }
+        { label: "赔率参考网站", url: "https://www.oddsportal.com/" },
+        { label: "比赛数据网站", url: "https://www.flashscore.com/" },
+        { label: "天气参考网站", url: "https://weather.com/" }
       ]
     }
   ]
@@ -81,7 +81,7 @@ const signalDefinitions = [
     keywords: ["lineup", "starting", "goalkeeper", "center-back", "midfielder", "striker", "warm-up", "injur", "rotation", "首发", "门将", "中卫", "后腰", "中锋", "伤停", "停赛", "轮换"]
   },
   {
-    title: "xG 与射门质量",
+    title: "预期进球与射门质量",
     helper: "用机会质量而不是表面战绩锚定比分区间。",
     keywords: ["xg", "xga", "box shots", "shots on target", "chance", "finishing", "transition", "禁区", "射门", "射正", "机会", "反击"]
   },
@@ -221,7 +221,7 @@ function render(reports) {
   filtered.forEach((report) => {
     const node = template.content.cloneNode(true);
     node.querySelector(".competition").textContent = report.competition || "世界杯";
-    node.querySelector(".match-title").textContent = `${report.homeTeam} vs ${report.awayTeam}`;
+    node.querySelector(".match-title").textContent = `${report.homeTeam} 对阵 ${report.awayTeam}`;
     node.querySelector(".kickoff").textContent = `${report.kickoffBeijing || ""} | ${report.venue || ""}`;
     node.querySelector(".pick").textContent = report.recommendation || "等待盘口";
     node.querySelector(".home-win").textContent = toPercent(report.probabilities?.home);
