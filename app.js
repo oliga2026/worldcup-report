@@ -1,67 +1,7 @@
 const fallbackReports = {
-  updatedAt: "2026-06-11T00:00:00+08:00",
+  updatedAt: "2026-06-12T00:00:00+08:00",
   timezone: "Asia/Shanghai",
-  reports: [
-    {
-      id: "mexico-south-africa-2026-06-12",
-      competition: "世界杯 A 组",
-      homeTeam: "墨西哥",
-      awayTeam: "南非",
-      kickoffLocal: "2026-06-11 13:00 墨西哥城",
-      kickoffBeijing: "2026-06-12 03:00 北京时间",
-      venue: "阿兹特克球场 / 墨西哥城体育场",
-      status: "upcoming",
-      statusLabel: "未开赛",
-      currentScore: "暂无比分",
-      score: null,
-      recommendation: "墨西哥胜，偏小比分",
-      probabilities: { home: 58, draw: 25, away: 17 },
-      scorePrediction: "1-0 / 2-0 / 1-1",
-      snapshot: [
-        "最高优先级信号是赛前 60 到 90 分钟确认首发门将、中卫组合、后腰和中锋。",
-        "高海拔主场仍偏向墨西哥，但如果前场轮换或主动降速，净胜球上限会明显下修。",
-        "让球、水位和大小球要一起读；若只是让球升盘而大小球不动，穿盘空间通常被高估。",
-        "当前比分模型仍偏低比分，除非临场首发和盘口同步指向更高节奏。"
-      ],
-      news: [
-        "临场必须补抓官方首发和替补名单，这是提升胜负与比分判断最有效的单一信息。",
-        "重点关注主帅是否释放保守控节奏、轮换、旅途疲劳或高原适应相关表态。",
-        "门将、主力中卫、单后腰或核心中锋的临时变化，应立即下调模型稳定性并重估总进球。",
-        "除常规伤停外，还要留意旅途延误、流感、热身退出和轻伤保护。"
-      ],
-      marketRead: "基础判断仍是墨西哥浅让更合理。若停在墨西哥 -0.75 且主队低水，盘口与基本面大致匹配；若升到 -1 但大小球仍在 2.25 或 2.5，说明市场更认可胜面而非大胜。若继续拉到 -1.25 却没有总进球联动，多半是热度推动而非真实优势放大。当前最贴近的比分区间仍是 1-0、2-0、1-1。",
-      marketMovement: "重点看三件事：第一，亚盘、1X2、大小球是否同向；第二，热门方是否只降水不升盘，这通常代表热度堆积；第三，临场若主胜持续压低但大小球保持低位，说明市场可能高估胜负确定性、低估比分波动。若升盘配高水，或热门成交明显拥挤而公司不愿深开，要防诱盘。",
-      lineup: [
-        "最该核对的位置是首发门将、双中卫、6 号位后腰和单箭头中锋。",
-        "墨西哥要看中轴是否齐整，尤其后腰保护与中锋支点是否同时首发；若中锋轮换，1-0 的概率高于 2-0。",
-        "南非要重点确认门将、主力中卫和反击速度点；若防线主力缺席，主队穿盘概率才会明显上升。",
-        "若官方阵型切成更保守结构，应同步下调总进球预期。"
-      ],
-      formData: [
-        "除近况战绩外，应固定观察预期进球、预期失球、禁区内射门、被射正、定位球预期进球和反击创造。",
-        "若墨西哥近期进球主要堆在弱旅身上，深盘价值应下修，不能只看表面连胜。",
-        "比分预测要看先入球与先失球后的比赛形态，而不只是总战绩。",
-        "若南非零封样本多来自弱队，且面对高压出球依旧不稳，1-0 和 2-0 仍是更合理主分布。"
-      ],
-      factors: [
-        "战意要写细：是否必须抢三分、净胜球是否关键、平局是否可接受。",
-        "天气要看实时温度、湿度、风速和草皮，高温高湿通常压低节奏与射门质量。",
-        "旅途恢复要记录跨时区、到达时间、休息天数和核心球员近期分钟数。",
-        "裁判尺度包括黄牌、点球倾向和对抗容忍度，会明显影响定位球与极端比分概率。",
-        "具体对位比笼统状态更重要，例如边路速度、防空质量、定位球攻防和攻守转换速度。"
-      ],
-      modelNote: "报告现在把五类高价值信息拆开观察：首发确认信号、预期进球质量、定位球优势、裁判尺度、旅途恢复。当前基本面仍支持墨西哥胜，但价值取决于临场首发完整度和热门是否过热。若中轴齐整、盘口停在 -0.75 到 -1、大小球不高于 2.5，则主胜加小比分逻辑一致；若深盘被热度推高，应把赛果方向和让球方向分开处理。",
-      risk: "主要风险不在胜负判断本身，而在赔率价格是否被挤压。若主队过热、升盘配高水、主帅释放保守信号，或中锋与后腰临场缺席，比赛就可能滑向只赢一球甚至 1-1。揭幕战节奏、裁判尺度和定位球偶发性也会放大比分误差。",
-      sources: [
-        { label: "国际足联官方赛程", url: "https://www.fifa.com/" },
-        { label: "墨西哥足协", url: "https://miseleccion.mx/" },
-        { label: "南非足协", url: "https://www.safa.net/" },
-        { label: "赔率参考网站", url: "https://www.oddsportal.com/" },
-        { label: "比赛数据网站", url: "https://www.flashscore.com/" },
-        { label: "天气参考网站", url: "https://weather.com/" }
-      ]
-    }
-  ]
+  reports: []
 };
 
 const state = {
@@ -80,34 +20,34 @@ const dateFormatter = new Intl.DateTimeFormat("zh-CN", {
 
 const signalDefinitions = [
   {
-    title: "首发确认",
-    helper: "门将、中卫、后腰、中锋的临场变化最直接影响胜率与比分上限。",
-    keywords: ["lineup", "starting", "goalkeeper", "center-back", "midfielder", "striker", "warm-up", "injur", "rotation", "首发", "门将", "中卫", "后腰", "中锋", "伤停", "停赛", "轮换"]
+    title: "官方比赛状态",
+    helper: "优先看 FIFA 官方赛程、开球时间、实时比分与比赛状态。",
+    keywords: ["比赛状态", "当前比分", "实时比分", "进行中", "已结束", "未开赛", "match", "score", "live"]
   },
   {
-    title: "预期进球与射门质量",
-    helper: "用机会质量而不是表面战绩锚定比分区间。",
-    keywords: ["xg", "xga", "box shots", "shots on target", "chance", "finishing", "transition", "禁区", "射门", "射正", "机会", "反击"]
+    title: "逐场相关新闻",
+    helper: "逐场新闻比通用预览更有价值，优先看和本场直接相关的 FIFA 新闻。",
+    keywords: ["FIFA 新闻", "live stream", "team news", "preview", "highlights", "injury", "news", "新闻"]
   },
   {
-    title: "定位球优势",
-    helper: "定位球往往决定低比分比赛中的单球差与意外失球。",
-    keywords: ["set-piece", "set piece", "corner", "free kick", "aerial", "penalty", "定位球", "角球", "任意球", "高空球", "头球", "点球"]
+    title: "盘口验证状态",
+    helper: "没有抓到可验证盘口时，不输出伪分析，直接标记盘口待接入。",
+    keywords: ["盘口", "水位", "亚洲盘", "1x2", "大小球", "market", "odds", "handicap"]
   },
   {
-    title: "裁判尺度",
-    helper: "黄牌、犯规与点球倾向会改变比赛波动和尾部比分概率。",
-    keywords: ["referee", "card", "penalty", "foul", "yellow", "red", "裁判", "黄牌", "红牌", "点球", "犯规"]
+    title: "裁判与场地",
+    helper: "裁判、球场、城市、天气和观众数会直接影响临场强度和比赛节奏。",
+    keywords: ["裁判", "场地", "天气", "现场人数", "referee", "stadium", "weather", "attendance"]
   },
   {
-    title: "天气与恢复",
-    helper: "温度、湿度、海拔和旅途恢复决定下半场体能质量。",
-    keywords: ["travel", "recovery", "altitude", "weather", "humidity", "wind", "pitch", "rest", "arrival", "fatigue", "旅途", "恢复", "海拔", "天气", "湿度", "风速", "草皮", "休息"]
+    title: "首发与伤停",
+    helper: "如果没有官方首发和伤停，不应强行输出具体让球结论。",
+    keywords: ["首发", "伤停", "阵容", "门将", "中卫", "lineup", "injury", "starting"]
   },
   {
-    title: "市场热度",
-    helper: "重点看让球、水位、大小球和 1X2 是否共同支持同一方向。",
-    keywords: ["market", "handicap", "water", "1x2", "totals", "odds", "overheated", "trap", "让球", "盘口", "水位", "赔率", "大小球", "过热", "诱盘"]
+    title: "风险提示",
+    helper: "如果盘口源缺失或伤停不明，最合理的动作就是降低判断强度。",
+    keywords: ["风险", "回避", "偏差", "风险提示", "risk"]
   }
 ];
 
@@ -174,25 +114,7 @@ function buildSignals(report) {
 }
 
 function classifyReport(report) {
-  const date = report.kickoffBeijing?.slice(0, 10);
-  const now = new Date();
-  const today = new Intl.DateTimeFormat("sv-SE", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(now);
-  const tomorrowDate = new Date(now.getTime() + 24 * 60 * 60 * 1000);
-  const tomorrow = new Intl.DateTimeFormat("sv-SE", {
-    timeZone: "Asia/Shanghai",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(tomorrowDate);
-
-  if (date === today) return "today";
-  if (date === tomorrow) return "tomorrow";
-  return "other";
+  return report.status || "upcoming";
 }
 
 function renderSignals(report, root) {
@@ -273,10 +195,9 @@ async function loadReports() {
   }
 
   state.reports = payload.reports || [];
-  const updated = payload.updatedAt
-    ? dateFormatter.format(new Date(payload.updatedAt))
-    : "暂无时间";
+  const updated = payload.updatedAt ? dateFormatter.format(new Date(payload.updatedAt)) : "暂无时间";
   document.querySelector("#updatedAt").textContent = `更新于 ${updated}`;
+  document.querySelector("#coverageText").textContent = `覆盖全部世界杯比赛，共 ${state.reports.length} 场`;
   render(state.reports);
 }
 
