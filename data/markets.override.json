@@ -1,17 +1,17 @@
 {
-  "fetchedAt": "2026-06-12T05:53:18.566Z",
+  "fetchedAt": "2026-06-12T07:05:43.122Z",
   "source": "the-odds-api",
   "byMatchId": {
     "400021440": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.537Z",
-      "oneXTwo": "主胜 1.6 / 平 3.97 / 客胜 5.1",
-      "asianHandicap": "捷克 -0.75 @ 1.81 / 南非 0.75 @ 2.01",
-      "overUnder": "大 2.25 @ 1.83 / 小 2.25 @ 1.95",
+      "fetchedAt": "2026-06-12T07:05:43.096Z",
+      "oneXTwo": "主胜 1.66 / 平 3.95 / 客胜 5.31",
+      "asianHandicap": "捷克 -0.75 @ 1.88 / 南非 0.75 @ 2",
+      "overUnder": "大 2.25 @ 1.89 / 小 2.25 @ 1.98",
       "probabilities": {
         "home": 58,
-        "draw": 23,
+        "draw": 24,
         "away": 18
       },
       "recommendation": "Pinnacle略偏主队，若让球不继续深开，主队不败更稳。",
@@ -22,18 +22,18 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/south-africa-vs-czechia/1627256477/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 捷克 -0.75 @ 1.81 / 南非 0.75 @ 2.01；大小球 大 2.25 @ 1.83 / 小 2.25 @ 1.95；1X2 主胜 1.6 / 平 3.97 / 客胜 5.1；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比：让球由「捷克 -0.75 @ 1.83 / 南非 0.75 @ 1.97」变为「捷克 -0.75 @ 1.81 / 南非 0.75 @ 2.01」；大小球由「大 2.25 @ 1.84 / 小 2.25 @ 1.94」变为「大 2.25 @ 1.83 / 小 2.25 @ 1.95」；1X2 由「主胜 1.62 / 平 3.93 / 客胜 4.98」变为「主胜 1.6 / 平 3.97 / 客胜 5.1」。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 捷克 -0.75 @ 1.88 / 南非 0.75 @ 2；大小球 大 2.25 @ 1.89 / 小 2.25 @ 1.98；1X2 主胜 1.66 / 平 3.95 / 客胜 5.31；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：让球由「捷克 -0.75 @ 1.81 / 南非 0.75 @ 2.01」变为「捷克 -0.75 @ 1.88 / 南非 0.75 @ 2」；大小球由「大 2.25 @ 1.83 / 小 2.25 @ 1.95」变为「大 2.25 @ 1.89 / 小 2.25 @ 1.98」；1X2 由「主胜 1.6 / 平 3.97 / 客胜 5.1」变为「主胜 1.66 / 平 3.95 / 客胜 5.31」。"
     },
     "400021442": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.539Z",
-      "oneXTwo": "主胜 1.97 / 平 3.34 / 客胜 3.83",
-      "asianHandicap": "墨西哥 -0.5 @ 1.98 / 韩国 0.5 @ 1.83",
-      "overUnder": "大 2 @ 1.79 / 小 2 @ 2.01",
+      "fetchedAt": "2026-06-12T07:05:43.098Z",
+      "oneXTwo": "主胜 1.99 / 平 3.48 / 客胜 4.07",
+      "asianHandicap": "墨西哥 -0.5 @ 2 / 韩国 0.5 @ 1.91",
+      "overUnder": "大 2 @ 1.83 / 小 2 @ 2.07",
       "probabilities": {
-        "home": 48,
+        "home": 49,
         "draw": 28,
         "away": 24
       },
@@ -45,13 +45,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/south-korea-vs-mexico/1620834895/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 墨西哥 -0.5 @ 1.98 / 韩国 0.5 @ 1.83；大小球 大 2 @ 1.79 / 小 2 @ 2.01；1X2 主胜 1.97 / 平 3.34 / 客胜 3.83；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 墨西哥 -0.5 @ 2 / 韩国 0.5 @ 1.91；大小球 大 2 @ 1.83 / 小 2 @ 2.07；1X2 主胜 1.99 / 平 3.48 / 客胜 4.07；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：让球由「墨西哥 -0.5 @ 1.98 / 韩国 0.5 @ 1.83」变为「墨西哥 -0.5 @ 2 / 韩国 0.5 @ 1.91」；大小球由「大 2 @ 1.79 / 小 2 @ 2.01」变为「大 2 @ 1.83 / 小 2 @ 2.07」；1X2 由「主胜 1.97 / 平 3.34 / 客胜 3.83」变为「主胜 1.99 / 平 3.48 / 客胜 4.07」。"
     },
     "400021444": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.550Z",
+      "fetchedAt": "2026-06-12T07:05:43.110Z",
       "oneXTwo": "主胜 4.31 / 平 3.45 / 客胜 1.83",
       "asianHandicap": "捷克 0.5 @ 1.97 / 墨西哥 -0.5 @ 1.83",
       "overUnder": "大 2.25 @ 1.88 / 小 2.25 @ 1.9",
@@ -74,7 +74,7 @@
     "400021445": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.550Z",
+      "fetchedAt": "2026-06-12T07:05:43.110Z",
       "oneXTwo": "主胜 5.53 / 平 3.85 / 客胜 1.58",
       "asianHandicap": "南非 1 @ 1.77 / 韩国 -1 @ 2.06",
       "overUnder": "大 2.5 @ 2 / 小 2.5 @ 1.79",
@@ -92,19 +92,19 @@
         }
       ],
       "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 南非 1 @ 1.77 / 韩国 -1 @ 2.06；大小球 大 2.5 @ 2 / 小 2.5 @ 1.79；1X2 主胜 5.53 / 平 3.85 / 客胜 1.58；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比：大小球由「大 2.5 @ 2 / 小 2.5 @ 1.73」变为「大 2.5 @ 2 / 小 2.5 @ 1.79」；1X2 由「主胜 5 / 平 3.6 / 客胜 1.67」变为「主胜 5.53 / 平 3.85 / 客胜 1.58」。"
+      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
     },
     "400021447": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.527Z",
-      "oneXTwo": "主胜 12.91 / 平 6.78 / 客胜 1.23",
+      "fetchedAt": "2026-06-12T07:05:43.088Z",
+      "oneXTwo": "主胜 14.69 / 平 6.77 / 客胜 1.22",
       "asianHandicap": "卡塔尔 1.75 @ 2 / 瑞士 -1.75 @ 1.91",
-      "overUnder": "大 2.75 @ 1.93 / 小 2.75 @ 1.95",
+      "overUnder": "大 2.75 @ 1.93 / 小 2.75 @ 1.96",
       "probabilities": {
         "home": 7,
         "draw": 14,
-        "away": 78
+        "away": 79
       },
       "recommendation": "Pinnacle略偏客队，若受让水位持续下压，客队方向更强。",
       "analysis": "Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
@@ -114,13 +114,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/switzerland-vs-qatar/1620858176/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 卡塔尔 1.75 @ 2 / 瑞士 -1.75 @ 1.91；大小球 大 2.75 @ 1.93 / 小 2.75 @ 1.95；1X2 主胜 12.91 / 平 6.78 / 客胜 1.23；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 卡塔尔 1.75 @ 2 / 瑞士 -1.75 @ 1.91；大小球 大 2.75 @ 1.93 / 小 2.75 @ 1.96；1X2 主胜 14.69 / 平 6.77 / 客胜 1.22；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：大小球由「大 2.75 @ 1.93 / 小 2.75 @ 1.95」变为「大 2.75 @ 1.93 / 小 2.75 @ 1.96」；1X2 由「主胜 12.91 / 平 6.78 / 客胜 1.23」变为「主胜 14.69 / 平 6.77 / 客胜 1.22」。"
     },
     "400021450": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.538Z",
+      "fetchedAt": "2026-06-12T07:05:43.097Z",
       "oneXTwo": "主胜 1.29 / 平 5.12 / 客胜 9.73",
       "asianHandicap": "加拿大 -1.5 @ 1.93 / 卡塔尔 1.5 @ 1.87",
       "overUnder": "大 2.5 @ 1.91 / 小 2.5 @ 1.88",
@@ -143,7 +143,7 @@
     "400021451": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.548Z",
+      "fetchedAt": "2026-06-12T07:05:43.108Z",
       "oneXTwo": "主胜 2.1 / 平 3.33 / 客胜 3.44",
       "asianHandicap": "瑞士 -0.25 @ 1.82 / 加拿大 0.25 @ 1.99",
       "overUnder": "大 2.25 @ 1.83 / 小 2.25 @ 1.95",
@@ -166,7 +166,7 @@
     "400021452": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.549Z",
+      "fetchedAt": "2026-06-12T07:05:43.109Z",
       "oneXTwo": "主胜 1.29 / 平 5.11 / 客胜 9.23",
       "asianHandicap": "摩洛哥 -1.5 @ 1.93 / 海地 1.5 @ 1.87",
       "overUnder": "大 2.75 @ 1.88 / 小 2.75 @ 1.9",
@@ -189,14 +189,14 @@
     "400021453": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.527Z",
-      "oneXTwo": "主胜 5.87 / 平 4.26 / 客胜 1.58",
+      "fetchedAt": "2026-06-12T07:05:43.088Z",
+      "oneXTwo": "主胜 5.83 / 平 4.19 / 客胜 1.6",
       "asianHandicap": "海地 1 @ 1.87 / 苏格兰 -1 @ 2.04",
       "overUnder": "大 2.5 @ 1.93 / 小 2.5 @ 1.96",
       "probabilities": {
-        "home": 16,
+        "home": 17,
         "draw": 23,
-        "away": 61
+        "away": 60
       },
       "recommendation": "Pinnacle略偏客队，若受让水位持续下压，客队方向更强。",
       "analysis": "Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
@@ -206,13 +206,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/scotland-vs-haiti/1620865473/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 海地 1 @ 1.87 / 苏格兰 -1 @ 2.04；大小球 大 2.5 @ 1.93 / 小 2.5 @ 1.96；1X2 主胜 5.87 / 平 4.26 / 客胜 1.58；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 海地 1 @ 1.87 / 苏格兰 -1 @ 2.04；大小球 大 2.5 @ 1.93 / 小 2.5 @ 1.96；1X2 主胜 5.83 / 平 4.19 / 客胜 1.6；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：1X2 由「主胜 5.87 / 平 4.26 / 客胜 1.58」变为「主胜 5.83 / 平 4.19 / 客胜 1.6」。"
     },
     "400021454": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.540Z",
+      "fetchedAt": "2026-06-12T07:05:43.098Z",
       "oneXTwo": "主胜 4.1 / 平 3.2 / 客胜 1.95",
       "asianHandicap": "苏格兰 0.5 @ 1.85 / 摩洛哥 -0.5 @ 1.96",
       "overUnder": "大 2.25 @ 2 / 小 2.25 @ 1.8",
@@ -235,7 +235,7 @@
     "400021455": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.549Z",
+      "fetchedAt": "2026-06-12T07:05:43.109Z",
       "oneXTwo": "主胜 5.68 / 平 4.93 / 客胜 1.43",
       "asianHandicap": "苏格兰 1.25 @ 1.86 / 巴西 -1.25 @ 1.94",
       "overUnder": "大 2.5 @ 1.81 / 小 2.5 @ 1.98",
@@ -258,14 +258,14 @@
     "400021456": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.527Z",
-      "oneXTwo": "主胜 1.65 / 平 3.85 / 客胜 5.9",
+      "fetchedAt": "2026-06-12T07:05:43.088Z",
+      "oneXTwo": "主胜 1.64 / 平 3.9 / 客胜 5.83",
       "asianHandicap": "巴西 -0.75 @ 1.83 / 摩洛哥 0.75 @ 2.09",
       "overUnder": "大 2.25 @ 1.83 / 小 2.25 @ 2.08",
       "probabilities": {
         "home": 59,
         "draw": 25,
-        "away": 16
+        "away": 17
       },
       "recommendation": "Pinnacle略偏主队，若让球不继续深开，主队不败更稳。",
       "analysis": "Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
@@ -275,13 +275,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/morocco-vs-brazil/1620849624/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 巴西 -0.75 @ 1.83 / 摩洛哥 0.75 @ 2.09；大小球 大 2.25 @ 1.83 / 小 2.25 @ 2.08；1X2 主胜 1.65 / 平 3.85 / 客胜 5.9；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 巴西 -0.75 @ 1.83 / 摩洛哥 0.75 @ 2.09；大小球 大 2.25 @ 1.83 / 小 2.25 @ 2.08；1X2 主胜 1.64 / 平 3.9 / 客胜 5.83；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：1X2 由「主胜 1.65 / 平 3.85 / 客胜 5.9」变为「主胜 1.64 / 平 3.9 / 客胜 5.83」。"
     },
     "400021457": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.540Z",
+      "fetchedAt": "2026-06-12T07:05:43.099Z",
       "oneXTwo": null,
       "asianHandicap": "巴西 -2.75 @ 1.85 / 海地 2.75 @ 1.96",
       "overUnder": "大 3.75 @ 1.94 / 小 3.75 @ 1.85",
@@ -300,12 +300,12 @@
     "400021458": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.524Z",
-      "oneXTwo": "主胜 2.08 / 平 3.34 / 客胜 3.92",
+      "fetchedAt": "2026-06-12T07:05:43.085Z",
+      "oneXTwo": "主胜 2.08 / 平 3.35 / 客胜 3.94",
       "asianHandicap": "美国 -0.5 @ 2.09 / 巴拉圭 0.5 @ 1.83",
       "overUnder": "大 2.25 @ 2.09 / 小 2.25 @ 1.82",
       "probabilities": {
-        "home": 46,
+        "home": 47,
         "draw": 29,
         "away": 25
       },
@@ -317,13 +317,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/paraguay-vs-usa/1620858178/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 美国 -0.5 @ 2.09 / 巴拉圭 0.5 @ 1.83；大小球 大 2.25 @ 2.09 / 小 2.25 @ 1.82；1X2 主胜 2.08 / 平 3.34 / 客胜 3.92；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比：让球由「美国 -0.5 @ 2.1 / 巴拉圭 0.5 @ 1.82」变为「美国 -0.5 @ 2.09 / 巴拉圭 0.5 @ 1.83」；大小球由「大 2.25 @ 2.08 / 小 2.25 @ 1.83」变为「大 2.25 @ 2.09 / 小 2.25 @ 1.82」；1X2 由「主胜 2.09 / 平 3.34 / 客胜 3.89」变为「主胜 2.08 / 平 3.34 / 客胜 3.92」。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 美国 -0.5 @ 2.09 / 巴拉圭 0.5 @ 1.83；大小球 大 2.25 @ 2.09 / 小 2.25 @ 1.82；1X2 主胜 2.08 / 平 3.35 / 客胜 3.94；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：1X2 由「主胜 2.08 / 平 3.34 / 客胜 3.92」变为「主胜 2.08 / 平 3.35 / 客胜 3.94」。"
     },
     "400021459": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.554Z",
+      "fetchedAt": "2026-06-12T07:05:43.113Z",
       "oneXTwo": "主胜 2.49 / 平 3.54 / 客胜 2.62",
       "asianHandicap": "土耳其 0 @ 1.85 / 美国 0 @ 1.95",
       "overUnder": "大 2.5 @ 1.87 / 小 2.5 @ 1.92",
@@ -346,7 +346,7 @@
     "400021460": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.541Z",
+      "fetchedAt": "2026-06-12T07:05:43.099Z",
       "oneXTwo": "主胜 2.17 / 平 3.14 / 客胜 3.47",
       "asianHandicap": "土耳其 -0.25 @ 1.86 / 巴拉圭 0.25 @ 1.94",
       "overUnder": "大 2.25 @ 2 / 小 2.25 @ 1.8",
@@ -369,7 +369,7 @@
     "400021461": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.553Z",
+      "fetchedAt": "2026-06-12T07:05:43.113Z",
       "oneXTwo": "主胜 2.09 / 平 3.19 / 客胜 3.64",
       "asianHandicap": "巴拉圭 -0.25 @ 1.79 / 澳大利亚 0.25 @ 2.02",
       "overUnder": "大 2.25 @ 1.98 / 小 2.25 @ 1.81",
@@ -392,7 +392,7 @@
     "400021462": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.539Z",
+      "fetchedAt": "2026-06-12T07:05:43.098Z",
       "oneXTwo": "主胜 1.71 / 平 3.95 / 客胜 4.3",
       "asianHandicap": "美国 -0.75 @ 1.94 / 澳大利亚 0.75 @ 1.86",
       "overUnder": "大 2.5 @ 2.01 / 小 2.5 @ 1.79",
@@ -415,14 +415,14 @@
     "400021463": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.528Z",
-      "oneXTwo": "主胜 5.07 / 平 3.81 / 客胜 1.74",
-      "asianHandicap": "澳大利亚 0.75 @ 1.93 / 土耳其 -0.75 @ 1.97",
-      "overUnder": "大 2.5 @ 2.07 / 小 2.5 @ 1.83",
+      "fetchedAt": "2026-06-12T07:05:43.089Z",
+      "oneXTwo": "主胜 5.29 / 平 3.89 / 客胜 1.69",
+      "asianHandicap": "澳大利亚 0.75 @ 2 / 土耳其 -0.75 @ 1.91",
+      "overUnder": "大 2.5 @ 2.04 / 小 2.5 @ 1.85",
       "probabilities": {
-        "home": 19,
+        "home": 18,
         "draw": 25,
-        "away": 56
+        "away": 57
       },
       "recommendation": "Pinnacle略偏客队，若受让水位持续下压，客队方向更强。",
       "analysis": "Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
@@ -432,13 +432,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/turkiye-vs-australia/1627278051/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 澳大利亚 0.75 @ 1.93 / 土耳其 -0.75 @ 1.97；大小球 大 2.5 @ 2.07 / 小 2.5 @ 1.83；1X2 主胜 5.07 / 平 3.81 / 客胜 1.74；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 澳大利亚 0.75 @ 2 / 土耳其 -0.75 @ 1.91；大小球 大 2.5 @ 2.04 / 小 2.5 @ 1.85；1X2 主胜 5.29 / 平 3.89 / 客胜 1.69；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：让球由「澳大利亚 0.75 @ 1.93 / 土耳其 -0.75 @ 1.97」变为「澳大利亚 0.75 @ 2 / 土耳其 -0.75 @ 1.91」；大小球由「大 2.5 @ 2.07 / 小 2.5 @ 1.83」变为「大 2.5 @ 2.04 / 小 2.5 @ 1.85」；1X2 由「主胜 5.07 / 平 3.81 / 客胜 1.74」变为「主胜 5.29 / 平 3.89 / 客胜 1.69」。"
     },
     "400021464": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.529Z",
+      "fetchedAt": "2026-06-12T07:05:43.089Z",
       "oneXTwo": "主胜 1.04 / 平 19 / 客胜 41",
       "asianHandicap": "德国 -3.25 @ 1.83 / 库拉索 3.25 @ 2.03",
       "overUnder": "大 4.25 @ 1.9 / 小 4.25 @ 1.93",
@@ -461,7 +461,7 @@
     "400021465": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.542Z",
+      "fetchedAt": "2026-06-12T07:05:43.101Z",
       "oneXTwo": "主胜 1.18 / 平 7.22 / 客胜 11.86",
       "asianHandicap": "厄瓜多尔 -2 @ 2.03 / 库拉索 2 @ 1.79",
       "overUnder": "大 2.75 @ 1.82 / 小 2.75 @ 1.97",
@@ -484,7 +484,7 @@
     "400021466": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.551Z",
+      "fetchedAt": "2026-06-12T07:05:43.111Z",
       "oneXTwo": "主胜 4.39 / 平 3.66 / 客胜 1.75",
       "asianHandicap": "厄瓜多尔 0.75 @ 1.82 / 德国 -0.75 @ 1.99",
       "overUnder": "大 2.5 @ 1.91 / 小 2.5 @ 1.88",
@@ -507,7 +507,7 @@
     "400021467": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.529Z",
+      "fetchedAt": "2026-06-12T07:05:43.091Z",
       "oneXTwo": "主胜 3.69 / 平 2.82 / 客胜 2.45",
       "asianHandicap": "科特迪瓦 0.25 @ 1.87 / 厄瓜多尔 -0.25 @ 2.04",
       "overUnder": "大 1.75 @ 1.82 / 小 1.75 @ 2.09",
@@ -530,7 +530,7 @@
     "400021468": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.551Z",
+      "fetchedAt": "2026-06-12T07:05:43.111Z",
       "oneXTwo": "主胜 11.54 / 平 6.47 / 客胜 1.2",
       "asianHandicap": "库拉索 1.75 @ 1.98 / 科特迪瓦 -1.75 @ 1.83",
       "overUnder": "大 2.75 @ 1.8 / 小 2.75 @ 1.99",
@@ -553,7 +553,7 @@
     "400021469": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.542Z",
+      "fetchedAt": "2026-06-12T07:05:43.100Z",
       "oneXTwo": "主胜 1.53 / 平 4.28 / 客胜 5.3",
       "asianHandicap": "德国 -1 @ 1.94 / 科特迪瓦 1 @ 1.86",
       "overUnder": "大 2.75 @ 1.96 / 小 2.75 @ 1.83",
@@ -576,12 +576,12 @@
     "400021470": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.529Z",
-      "oneXTwo": "主胜 2.03 / 平 3.62 / 客胜 3.75",
-      "asianHandicap": "荷兰 -0.5 @ 2.04 / 日本 0.5 @ 1.87",
+      "fetchedAt": "2026-06-12T07:05:43.090Z",
+      "oneXTwo": "主胜 2.04 / 平 3.62 / 客胜 3.73",
+      "asianHandicap": "荷兰 -0.5 @ 2.05 / 日本 0.5 @ 1.86",
       "overUnder": "大 2.5 @ 1.97 / 小 2.5 @ 1.92",
       "probabilities": {
-        "home": 48,
+        "home": 47,
         "draw": 27,
         "away": 26
       },
@@ -593,13 +593,13 @@
           "url": "https://www.pinnacle.com/en/soccer/fifa-world-cup/japan-vs-netherlands/1620849619/"
         }
       ],
-      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 荷兰 -0.5 @ 2.04 / 日本 0.5 @ 1.87；大小球 大 2.5 @ 1.97 / 小 2.5 @ 1.92；1X2 主胜 2.03 / 平 3.62 / 客胜 3.75；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
-      "marketMovement": "与上一轮快照相比，主流盘口未见明显变化。"
+      "marketRead": "Pinnacle 可验证盘口快照；亚洲让球 荷兰 -0.5 @ 2.05 / 日本 0.5 @ 1.86；大小球 大 2.5 @ 1.97 / 小 2.5 @ 1.92；1X2 主胜 2.04 / 平 3.62 / 客胜 3.73；Pinnacle 为当前优先可验证盘口源。已返回让球数据。已返回大小球数据。",
+      "marketMovement": "与上一轮快照相比：让球由「荷兰 -0.5 @ 2.04 / 日本 0.5 @ 1.87」变为「荷兰 -0.5 @ 2.05 / 日本 0.5 @ 1.86」；1X2 由「主胜 2.03 / 平 3.62 / 客胜 3.75」变为「主胜 2.04 / 平 3.62 / 客胜 3.73」。"
     },
     "400021471": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.553Z",
+      "fetchedAt": "2026-06-12T07:05:43.112Z",
       "oneXTwo": "主胜 2.07 / 平 3.37 / 客胜 3.47",
       "asianHandicap": "日本 -0.25 @ 1.79 / 瑞典 0.25 @ 2.02",
       "overUnder": "大 2.25 @ 1.8 / 小 2.25 @ 2",
@@ -622,7 +622,7 @@
     "400021472": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.541Z",
+      "fetchedAt": "2026-06-12T07:05:43.100Z",
       "oneXTwo": "主胜 1.61 / 平 4.02 / 客胜 4.95",
       "asianHandicap": "荷兰 -1 @ 2.03 / 瑞典 1 @ 1.78",
       "overUnder": "大 2.5 @ 1.88 / 小 2.5 @ 1.9",
@@ -645,7 +645,7 @@
     "400021473": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.552Z",
+      "fetchedAt": "2026-06-12T07:05:43.112Z",
       "oneXTwo": "主胜 6.28 / 平 4.22 / 客胜 1.47",
       "asianHandicap": "突尼斯 1 @ 2 / 荷兰 -1 @ 1.81",
       "overUnder": "大 2.5 @ 1.83 / 小 2.5 @ 1.95",
@@ -668,7 +668,7 @@
     "400021474": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.529Z",
+      "fetchedAt": "2026-06-12T07:05:43.091Z",
       "oneXTwo": "主胜 1.91 / 平 3.51 / 客胜 4.43",
       "asianHandicap": "瑞典 -0.5 @ 1.92 / 突尼斯 0.5 @ 1.99",
       "overUnder": "大 2.25 @ 2.02 / 小 2.25 @ 1.87",
@@ -691,7 +691,7 @@
     "400021475": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.543Z",
+      "fetchedAt": "2026-06-12T07:05:43.101Z",
       "oneXTwo": "主胜 5.25 / 平 3.57 / 客胜 1.66",
       "asianHandicap": "突尼斯 0.75 @ 1.91 / 日本 -0.75 @ 1.89",
       "overUnder": "大 2.25 @ 1.91 / 小 2.25 @ 1.88",
@@ -714,7 +714,7 @@
     "400021476": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.532Z",
+      "fetchedAt": "2026-06-12T07:05:43.093Z",
       "oneXTwo": "主胜 1.83 / 平 3.57 / 客胜 4.73",
       "asianHandicap": "伊朗 -0.5 @ 1.85 / 新西兰 0.5 @ 2.07",
       "overUnder": "大 2.25 @ 2.07 / 小 2.25 @ 1.83",
@@ -737,7 +737,7 @@
     "400021477": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.543Z",
+      "fetchedAt": "2026-06-12T07:05:43.102Z",
       "oneXTwo": "主胜 1.38 / 平 4.58 / 客胜 7.6",
       "asianHandicap": "比利时 -1.25 @ 1.92 / 伊朗 1.25 @ 1.88",
       "overUnder": "大 2.5 @ 1.84 / 小 2.5 @ 1.95",
@@ -760,7 +760,7 @@
     "400021478": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.531Z",
+      "fetchedAt": "2026-06-12T07:05:43.092Z",
       "oneXTwo": "主胜 1.64 / 平 4.01 / 客胜 5.63",
       "asianHandicap": "比利时 -0.75 @ 1.84 / 埃及 0.75 @ 2.08",
       "overUnder": "大 2.5 @ 2.02 / 小 2.5 @ 1.87",
@@ -783,7 +783,7 @@
     "400021479": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.557Z",
+      "fetchedAt": "2026-06-12T07:05:43.117Z",
       "oneXTwo": "主胜 2.22 / 平 2.99 / 客胜 3.55",
       "asianHandicap": "埃及 -0.25 @ 1.88 / 伊朗 0.25 @ 1.92",
       "overUnder": "大 2 @ 1.92 / 小 2 @ 1.87",
@@ -806,7 +806,7 @@
     "400021480": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.544Z",
+      "fetchedAt": "2026-06-12T07:05:43.103Z",
       "oneXTwo": "主胜 4.33 / 平 3.81 / 客胜 1.73",
       "asianHandicap": "新西兰 0.75 @ 1.83 / 埃及 -0.75 @ 1.97",
       "overUnder": "大 2.25 @ 1.95 / 小 2.25 @ 1.83",
@@ -829,7 +829,7 @@
     "400021481": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.557Z",
+      "fetchedAt": "2026-06-12T07:05:43.116Z",
       "oneXTwo": "主胜 9.66 / 平 5.73 / 客胜 1.25",
       "asianHandicap": "新西兰 1.5 @ 1.98 / 比利时 -1.5 @ 1.83",
       "overUnder": "大 2.75 @ 1.81 / 小 2.75 @ 1.99",
@@ -852,7 +852,7 @@
     "400021483": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.543Z",
+      "fetchedAt": "2026-06-12T07:05:43.101Z",
       "oneXTwo": "主胜 1.09 / 平 10.32 / 客胜 21.91",
       "asianHandicap": "西班牙 -2.5 @ 1.98 / 沙特 2.5 @ 1.83",
       "overUnder": "大 3.25 @ 1.94 / 小 3.25 @ 1.85",
@@ -875,7 +875,7 @@
     "400021484": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.556Z",
+      "fetchedAt": "2026-06-12T07:05:43.115Z",
       "oneXTwo": "主胜 5.15 / 平 3.87 / 客胜 1.61",
       "asianHandicap": "乌拉圭 0.75 @ 2.02 / 西班牙 -0.75 @ 1.8",
       "overUnder": "大 2.5 @ 1.87 / 小 2.5 @ 1.92",
@@ -898,7 +898,7 @@
     "400021486": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.531Z",
+      "fetchedAt": "2026-06-12T07:05:43.092Z",
       "oneXTwo": "主胜 7.76 / 平 4.47 / 客胜 1.46",
       "asianHandicap": "沙特 1.25 @ 1.83 / 乌拉圭 -1.25 @ 2.09",
       "overUnder": "大 2.5 @ 2.04 / 小 2.5 @ 1.85",
@@ -921,7 +921,7 @@
     "400021488": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.532Z",
+      "fetchedAt": "2026-06-12T07:05:43.093Z",
       "oneXTwo": "主胜 14.4 / 平 7.3 / 客胜 1.2",
       "asianHandicap": "伊拉克 2 @ 1.83 / 挪威 -2 @ 2.1",
       "overUnder": "大 3 @ 1.96 / 小 3 @ 1.93",
@@ -944,7 +944,7 @@
     "400021489": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.555Z",
+      "fetchedAt": "2026-06-12T07:05:43.115Z",
       "oneXTwo": "主胜 4.16 / 平 3.54 / 客胜 1.83",
       "asianHandicap": "挪威 0.5 @ 1.97 / 法国 -0.5 @ 1.83",
       "overUnder": "大 2.5 @ 1.97 / 小 2.5 @ 1.82",
@@ -967,7 +967,7 @@
     "400021490": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.532Z",
+      "fetchedAt": "2026-06-12T07:05:43.093Z",
       "oneXTwo": "主胜 1.47 / 平 4.48 / 客胜 7.34",
       "asianHandicap": "法国 -1 @ 1.81 / 塞内加尔 1 @ 2.11",
       "overUnder": "大 2.5 @ 2 / 小 2.5 @ 1.88",
@@ -990,7 +990,7 @@
     "400021491": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.545Z",
+      "fetchedAt": "2026-06-12T07:05:43.105Z",
       "oneXTwo": "主胜 2.09 / 平 3.51 / 客胜 3.28",
       "asianHandicap": "挪威 -0.25 @ 1.83 / 塞内加尔 0.25 @ 1.98",
       "overUnder": "大 2.5 @ 1.94 / 小 2.5 @ 1.85",
@@ -1013,7 +1013,7 @@
     "400021492": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.545Z",
+      "fetchedAt": "2026-06-12T07:05:43.104Z",
       "oneXTwo": "主胜 1.11 / 平 8.17 / 客胜 24.44",
       "asianHandicap": "法国 -2.5 @ 2 / 伊拉克 2.5 @ 1.81",
       "overUnder": "大 3.25 @ 1.97 / 小 3.25 @ 1.83",
@@ -1036,7 +1036,7 @@
     "400021493": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.554Z",
+      "fetchedAt": "2026-06-12T07:05:43.114Z",
       "oneXTwo": "主胜 1.36 / 平 4.66 / 客胜 7.89",
       "asianHandicap": "塞内加尔 -1.25 @ 1.9 / 伊拉克 1.25 @ 1.9",
       "overUnder": "大 2.5 @ 1.85 / 小 2.5 @ 1.93",
@@ -1059,7 +1059,7 @@
     "400021494": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.545Z",
+      "fetchedAt": "2026-06-12T07:05:43.103Z",
       "oneXTwo": "主胜 1.6 / 平 3.72 / 客胜 5.54",
       "asianHandicap": "阿根廷 -0.75 @ 1.78 / 奥地利 0.75 @ 2.04",
       "overUnder": "大 2.5 @ 1.93 / 小 2.5 @ 1.86",
@@ -1082,7 +1082,7 @@
     "400021495": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.563Z",
+      "fetchedAt": "2026-06-12T07:05:43.120Z",
       "oneXTwo": "主胜 13.38 / 平 7.16 / 客胜 1.16",
       "asianHandicap": "约旦 2 @ 1.83 / 阿根廷 -2 @ 1.96",
       "overUnder": "大 3 @ 1.9 / 小 3 @ 1.87",
@@ -1105,7 +1105,7 @@
     "400021496": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.533Z",
+      "fetchedAt": "2026-06-12T07:05:43.094Z",
       "oneXTwo": "主胜 1.41 / 平 4.55 / 客胜 9.05",
       "asianHandicap": "阿根廷 -1.25 @ 1.95 / 阿尔及利亚 1.25 @ 1.95",
       "overUnder": "大 2.5 @ 1.97 / 小 2.5 @ 1.91",
@@ -1128,7 +1128,7 @@
     "400021497": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.562Z",
+      "fetchedAt": "2026-06-12T07:05:43.120Z",
       "oneXTwo": "主胜 3.74 / 平 3.03 / 客胜 2.13",
       "asianHandicap": "阿尔及利亚 0.25 @ 2 / 奥地利 -0.25 @ 1.81",
       "overUnder": "大 2.25 @ 1.81 / 小 2.25 @ 1.98",
@@ -1151,7 +1151,7 @@
     "400021498": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.533Z",
+      "fetchedAt": "2026-06-12T07:05:43.094Z",
       "oneXTwo": "主胜 1.34 / 平 5.46 / 客胜 9.07",
       "asianHandicap": "奥地利 -1.5 @ 2 / 约旦 1.5 @ 1.91",
       "overUnder": "大 2.75 @ 1.88 / 小 2.75 @ 2.02",
@@ -1174,7 +1174,7 @@
     "400021499": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.546Z",
+      "fetchedAt": "2026-06-12T07:05:43.105Z",
       "oneXTwo": "主胜 6.2 / 平 4.17 / 客胜 1.48",
       "asianHandicap": "约旦 1 @ 1.96 / 阿尔及利亚 -1 @ 1.84",
       "overUnder": "大 2.5 @ 1.88 / 小 2.5 @ 1.9",
@@ -1197,7 +1197,7 @@
     "400021503": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.546Z",
+      "fetchedAt": "2026-06-12T07:05:43.105Z",
       "oneXTwo": "主胜 1.21 / 平 6.36 / 客胜 10.89",
       "asianHandicap": "葡萄牙 -1.75 @ 1.93 / 乌兹别克斯坦 1.75 @ 1.88",
       "overUnder": "大 3 @ 1.85 / 小 3 @ 1.93",
@@ -1220,7 +1220,7 @@
     "400021504": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.536Z",
+      "fetchedAt": "2026-06-12T07:05:43.096Z",
       "oneXTwo": "主胜 9.17 / 平 4.73 / 客胜 1.39",
       "asianHandicap": "乌兹别克斯坦 1.25 @ 1.97 / 哥伦比亚 -1.25 @ 1.93",
       "overUnder": "大 2.5 @ 1.98 / 小 2.5 @ 1.91",
@@ -1243,7 +1243,7 @@
     "400021505": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.561Z",
+      "fetchedAt": "2026-06-12T07:05:43.119Z",
       "oneXTwo": "主胜 3.46 / 平 3.27 / 客胜 2.12",
       "asianHandicap": "哥伦比亚 0.25 @ 1.98 / 葡萄牙 -0.25 @ 1.83",
       "overUnder": "大 2.25 @ 1.83 / 小 2.25 @ 1.95",
@@ -1266,7 +1266,7 @@
     "400021506": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.547Z",
+      "fetchedAt": "2026-06-12T07:05:43.106Z",
       "oneXTwo": "主胜 1.29 / 平 5.32 / 客胜 8.93",
       "asianHandicap": "英格兰 -1.5 @ 1.87 / 加纳 1.5 @ 1.93",
       "overUnder": "大 2.75 @ 1.86 / 小 2.75 @ 1.93",
@@ -1289,7 +1289,7 @@
     "400021507": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.535Z",
+      "fetchedAt": "2026-06-12T07:05:43.095Z",
       "oneXTwo": "主胜 1.73 / 平 3.9 / 客胜 4.96",
       "asianHandicap": "英格兰 -0.75 @ 1.97 / 克罗地亚 0.75 @ 1.93",
       "overUnder": "大 2.25 @ 1.93 / 小 2.25 @ 1.96",
@@ -1312,7 +1312,7 @@
     "400021508": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.558Z",
+      "fetchedAt": "2026-06-12T07:05:43.117Z",
       "oneXTwo": "主胜 7.57 / 平 6.39 / 客胜 1.27",
       "asianHandicap": "巴拿马 1.5 @ 1.99 / 英格兰 -1.5 @ 1.82",
       "overUnder": "大 2.75 @ 1.78 / 小 2.75 @ 2.02",
@@ -1335,7 +1335,7 @@
     "400021509": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.559Z",
+      "fetchedAt": "2026-06-12T07:05:43.118Z",
       "oneXTwo": "主胜 1.6 / 平 3.78 / 客胜 5.51",
       "asianHandicap": "克罗地亚 -0.75 @ 1.78 / 加纳 0.75 @ 2.05",
       "overUnder": "大 2.25 @ 1.79 / 小 2.25 @ 2.01",
@@ -1358,7 +1358,7 @@
     "400021510": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.535Z",
+      "fetchedAt": "2026-06-12T07:05:43.095Z",
       "oneXTwo": "主胜 2.18 / 平 3.51 / 客胜 3.45",
       "asianHandicap": "加纳 -0.25 @ 1.89 / 巴拿马 0.25 @ 2.02",
       "overUnder": "大 2.25 @ 2.04 / 小 2.25 @ 1.85",
@@ -1381,7 +1381,7 @@
     "400021511": {
       "bookmaker": "Pinnacle",
       "bookmakerKey": "pinnacle",
-      "fetchedAt": "2026-06-12T05:53:18.547Z",
+      "fetchedAt": "2026-06-12T07:05:43.106Z",
       "oneXTwo": "主胜 6.29 / 平 3.68 / 客胜 1.55",
       "asianHandicap": "巴拿马 1 @ 1.85 / 克罗地亚 -1 @ 1.94",
       "overUnder": "大 2.25 @ 1.8 / 小 2.25 @ 2",
