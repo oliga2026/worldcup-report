@@ -12,42 +12,43 @@
         <p class="eyebrow">2026 年世界杯</p>
         <h1>世界杯赛前情报板</h1>
         <p class="hero-note">
-          以盘口判断为中心，集中展示首发确认、预期进球质量、定位球、
-          裁判尺度、天气与旅途恢复等高价值信息。
+          覆盖全部世界杯比赛，持续更新官方赛程、实时比分、逐场新闻、裁判、场地与盘口状态。
+          当前已接通 FIFA 官方比赛数据；盘口模块只在抓到可验证数据时展示，不再输出模板化分析。
         </p>
       </div>
       <div class="status-block">
         <div class="status" id="updatedAt">正在读取更新...</div>
-        <div class="status-sub">覆盖未来 36 小时比赛</div>
+        <div class="status-sub" id="coverageText">覆盖全部世界杯比赛</div>
       </div>
     </header>
 
     <main class="layout">
       <section class="toolbar" aria-label="筛选报告">
         <button class="seg active" data-filter="all" type="button">全部</button>
-        <button class="seg" data-filter="today" type="button">今日</button>
-        <button class="seg" data-filter="tomorrow" type="button">明日</button>
+        <button class="seg" data-filter="live" type="button">进行中</button>
+        <button class="seg" data-filter="upcoming" type="button">未开赛</button>
+        <button class="seg" data-filter="finished" type="button">已结束</button>
       </section>
 
       <section class="legend">
         <div class="legend-card">
-          <strong>临场首发信号</strong>
-          <span>门将、中卫、后腰、中锋是否齐整</span>
+          <strong>实时状态</strong>
+          <span>优先展示官方比分、比赛状态、场地、裁判和新闻</span>
         </div>
         <div class="legend-card">
-          <strong>盘口一致性</strong>
-          <span>亚盘、水位、大小球、1X2 是否同向</span>
+          <strong>盘口状态</strong>
+          <span>只有抓到可验证盘口时才展示盘口与水位分析</span>
         </div>
         <div class="legend-card">
-          <strong>比分驱动因子</strong>
-          <span>xG、定位球、裁判、天气、旅途消耗</span>
+          <strong>逐场更新</strong>
+          <span>每次运行更新脚本后，全量覆盖世界杯所有比赛数据</span>
         </div>
       </section>
 
       <section id="reports" class="reports" aria-live="polite"></section>
       <section id="emptyState" class="empty-state" hidden>
-        <h2>暂无未来 36 小时比赛</h2>
-        <p>自动更新完成后，这里会展示接下来 36 小时内的赛前报告。</p>
+        <h2>暂无可显示比赛</h2>
+        <p>自动更新完成后，这里会展示世界杯全部比赛的最新数据。</p>
       </section>
     </main>
 
@@ -75,8 +76,8 @@
 
         <section class="signal-panel">
           <div class="section-head">
-            <h3>高级预测信号</h3>
-            <p>把最影响胜负与比分的临场变量单独拎出来看。</p>
+            <h3>关键信号</h3>
+            <p>把最影响比赛走势和盘口判断的信号单独抽出来看。</p>
           </div>
           <div class="signal-grid"></div>
         </section>
@@ -87,7 +88,7 @@
         </details>
 
         <details>
-          <summary>最新新闻与可用性</summary>
+          <summary>最新新闻与动态</summary>
           <ul class="news"></ul>
         </details>
 
