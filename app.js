@@ -147,7 +147,10 @@ function render(reports) {
   filtered.forEach((report) => {
     const node = template.content.cloneNode(true);
     node.querySelector(".competition").textContent = report.competition || "世界杯";
-    node.querySelector(".match-title").textContent = `${report.homeTeam} 对阵 ${report.awayTeam}`;
+    const homeTeam = report.homeTeam || "待定";
+    const awayTeam = report.awayTeam || "待定";
+    node.querySelector(".match-title").textContent =
+      homeTeam === "待定" && awayTeam === "待定" ? "对阵待定" : `${homeTeam} 对阵 ${awayTeam}`;
     node.querySelector(".kickoff").textContent = `${report.kickoffBeijing || ""} | ${report.venue || ""}`;
     node.querySelector(".match-status").textContent = report.statusLabel || "状态待确认";
     node.querySelector(".current-score").textContent = report.currentScore || "暂无比分";
